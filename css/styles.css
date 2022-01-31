@@ -1,0 +1,165 @@
+/******************* ELEMENT SELECTORS *******************/
+body{
+  margin-top: 5%;
+  background-color: #AEC6CF;
+}
+
+h1{
+  margin-top: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 2;
+  color: #6492a3;
+}
+
+h2{
+  font-family: 'Supermercado One';
+  font-size: 400%;
+  color: #456774;
+}
+
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 135%;
+  color: #ecf1f3;
+}
+p{
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 125%;
+  color: #456774;
+}
+hr{
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: white;
+  margin-top: 5%;
+}
+
+/******************* CLASS SELECTORS *******************/
+.topcontainer{
+  background-color: #AEC6CF;
+  text-align: center;
+}
+
+.middlecontainer{
+  background-color: #AEC6CF;
+  text-align: center;
+}
+
+.bottomcontainer{
+  padding-top: 20px;
+  background-color: #6492a3;
+  text-align: center;
+  font-family: 'Supermercado One';
+  font-size: 120%;
+}
+
+.webdeveloper{
+font-family: 'Supermercado One';
+font-size: 300%;
+color: #6492a3;
+}
+
+.webdev{
+  color: #deece1;
+}
+
+.header-name{
+font-size: 320%;
+}
+
+.topcloud{
+ height: 300px;
+  position: absolute;
+  right: 10%;
+  animation: left-to-right 12s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s
+}
+
+.bottomcloud{
+  height:400px;
+  position: absolute;
+  left: 20%;
+  animation: right-to-left 12s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+}
+
+.salutation{
+  font-size: 300%;
+}
+
+.brandonProfilePic{
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid #333;
+}
+
+.codingpicture1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.codingpicture2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.footer-link{
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 125%;
+  color: #456774;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.btn{
+  background-color: #817266;
+  border: 2px;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 150%;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #A19274;
+}
+/******************* KEYFRAMES *******************/
+
+@keyframes left-to-right {
+  0%{
+    transform: translate(0px, 0px);
+  }
+  50%{
+    transform: translate(80px, 0px);
+  }
+  100%{
+    transform: translateX(0px, 0px);
+  }
+}
+
+@keyframes right-to-left {
+  0%{
+    transform: translate(0px, 0px);
+  }
+  50%{
+    transform: translate(-80px, 0px);
+  }
+  100%{
+    transform: translateX(0px, 0px);
+  }
+}
