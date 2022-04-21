@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/hourglass_favicon.ico">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+  rel="stylesheet"
+/>
+
+</head>
+<body>
+    <h1 id="pomodoro-heading">Pomodoro Timer</h1>
+    <p id="pomodoro-intro">The Pomodoro (Italian for tomato) technique was developed in the late 1980s by Francesco Cirillo during his university days. <br>
+        He used his tomato shaped kitchen timer to commit 10 minutes of study time and found that it worked fantastically well. This popular time management method uses focused sessions of work with frequent short breaks to stave off mental fatigue. <br>
+        <br>
+        Pick your desired ambience :
+    </p>
+    <div class="ambience">
+    <button class="ambience" id="forest-ambience">Forest Ambience</button>
+    <button class="ambience" id="rain-ambience">Rain Ambience</button>
+    <button class="ambience" id="night-ambience">Night Ambience</button>
+    <br>
+    <button class="ambience" id="lofi-ambience">Lo-fi Ambience</button>
+    <button class="ambience" id="quiet">Peace & Quiet</button>
+    </div>
+    <hr>
+
+    <div id="pomodoro-container">
+        <div id="pomodoro-clock">
+            <div id="pomodoro-timer"></div>
+            <div>
+                <input type="text" 
+                id="pomodoro-clock-task" 
+                placeholder="Enter your task"/>
+            </div>
+            <div id="pomodoro-clock-actions">
+                <button id="pomodoro-start">
+                    <i class="fas fa-play" id="play-icon"></i>
+                    <i class="fas fa-pause hidden" id="pause-icon"></i>
+                </button>
+                <button id="pomodoro-stop" class="hidden">
+                    <i class="fas fa-stop" id="stop-icon"></i>
+                </button>
+            </div>
+            <div id="pomodoro-clock-title">
+                <span>
+                    Changes made here will reflect at the start of the next work / break session.
+                </span>
+            </div>
+            <div id="pomodoro-clock-actions">
+                <div class="pomodoro-input">
+                    <label>Work Duration (mins) : </label>
+                    <input name="input-work-duration" id="input-work-duration" type="number" />
+                </div>
+                <div class="pomodoro-input">
+                    <label>Break Duration (mins) : </label>
+                    <input name="input-break-duration" id="input-break-duration" type="number" />
+                </div>
+            </div>
+        </div>
+        <div id="pomodoro-info">
+            <h3>Your Sessions</h3>
+            <ul id="pomodoro-sessions"></ul>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+
+<div class="middlecontainer">
+    <a class="btn" href="index.html">back to Home</a>
+</div>
+
+<br>
+
+<div class="bottomcontainer">
+    <a class="footer-link" href="https://www.linkedin.com/in/brandon-yeo-a9bb12197/">LinkedIn</a>
+    <a class="footer-link" href="https://telegram.me/Branyzp">Chat me via Telegram</a>
+    <a class="footer-link" href="https://instagram.com/b._.yzp">Instagram</a>
+  
+    <p>2022 © Brandon Yeo</p>
+  </div>
+
+    <script src="pomodoro.js"></script>
+</body>
+</html>
+
+<!--User stories
+User can start / pause / stop a timer
+User can edit the title of a task
+User can see a list of the completed pomodoro sessions
+User can customize the duration of each work / break session
+-->

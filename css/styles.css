@@ -54,13 +54,13 @@ hr{
   font-size: 120%;
 }
 
-.webdeveloper{
+.fullstackdeveloper{
 font-family: 'Supermercado One';
 font-size: 300%;
 color: #6492a3;
 }
 
-.webdev{
+.fullstackdev{
   color: #deece1;
 }
 
@@ -137,6 +137,45 @@ font-size: 320%;
 
 .btn:hover{
   background-color: #A19274;
+}
+
+.hidden{
+  display: none;
+}
+
+.ambience{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px 20px 10px 20px;
+}
+/******************* ID SELECTORS *******************/
+#pomodoro-heading{
+  font-size: 300%;
+  text-align: center;
+}
+
+#pomodoro-container{
+  text-align: center;
+  margin-top: 40px;
+  line-height: 3;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 135%;
+  color: #ecf1f3;
+}
+
+#pomodoro-intro{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+#homeBtn{
+  text-align: center;
+}
+
+#pomodoro-timer{
+  font-size: 600%;
 }
 /******************* KEYFRAMES *******************/
 
