@@ -27,6 +27,11 @@ p{
   font-size: 125%;
   color: #456774;
 }
+li{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 125%;
+  color: #456774;
+}
 hr{
   width: 10%;
   border-style: dotted none none;
@@ -166,7 +171,7 @@ font-size: 320%;
 }
 
 .game-container{
-  padding 20px 30px;
+  padding: 20px 30px;
   position: relative;
   margin: auto;
   height: 350px;
@@ -271,6 +276,11 @@ font-size: 320%;
 
 .notification-container.show{
   transform: translateY(-50px);
+}
+
+
+.icon{
+  height: 50px;
 }
 /******************* ID SELECTORS *******************/
 #pick{
